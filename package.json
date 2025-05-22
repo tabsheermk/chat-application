@@ -1,0 +1,11 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A chat application built using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MK Tabsheer",
+  "license": "ISC"
+}
