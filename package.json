@@ -4,6 +4,8 @@
   "description": "A chat application built using node",
   "main": "index.js",
   "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MK Tabsheer",
