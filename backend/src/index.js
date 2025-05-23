@@ -2,6 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import { app, server } from "./lib/socket.js";
+import { connectDB } from "./lib/db.js";
 
 dotenv.config();
 
@@ -20,4 +21,5 @@ app.get("/", (req, res) => {
 
 server.listen(PORT, () => {
   console.log("App is running on PORT " + PORT);
+  connectDB();
 });
